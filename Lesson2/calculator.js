@@ -1,7 +1,6 @@
 function Calculator(){
     let a = parseFloat(document.getElementById("num1").value);
     let b = parseFloat(document.getElementById("num2").value);
-    let result;
     switch(document.getElementById("mathOperation").value){
         case "sum":
             alert(a+b); 
