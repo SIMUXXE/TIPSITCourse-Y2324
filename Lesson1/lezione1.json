@@ -1,0 +1,41 @@
+{
+    "myteam":[
+        {
+            "name":"Lugia",
+            "type":"psicoVolante",
+            "dexNum":"#249",
+            "baseStats":"680"
+        },
+        {
+            "name":"HisuianArcanine",
+            "type":"fuocoRoccia",
+            "dexNum":"#059",
+            "baseStats":"555"
+        },
+        {
+            "name":"Typhlosion",
+            "type":"fuoco",
+            "dexNum":"#157",
+            "baseStats":"534"
+        },
+        {
+            "name":"Koraidon",
+            "type":"lottaDrago",
+            "dexNum":"#1007",
+            "baseStats":"670"
+        },
+        {
+            "name":"Garchomp",
+            "type":"dragoTerra",
+            "dexNum":"#445",
+            "baseStats":"600"
+        },
+        {
+            "name":"Torterra",
+            "type":"erbaTerra",
+            "dexNum":"#389",
+            "baseStats":"525"
+        }
+
+    ]
+}

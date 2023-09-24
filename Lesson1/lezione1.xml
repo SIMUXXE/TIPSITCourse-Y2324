@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myteam xmlns:xsi="http://www.w3.org/2001/XMLSchema-intance" xsi:noNamespaceSchemaLocation="lezione1.xsd">
+    <member> 
+        <name>Lugia</name>
+        <type>psicoVolante</type>
+        <dexNum>#249</dexNum>
+        <baseStats>680</baseStats>
+    </member>
+    <member>
+        <name>HisuianArcanine</name>
+        <type>fuocoRoccia</type>
+        <dexNum>#059</dexNum>
+        <baseStats>555</baseStats>
+    </member>
+        <member>
+        <name>Typhlosion</name>
+        <type>fuoco</type>
+        <dexNum>#157</dexNum>
+        <baseStats>534</baseStats>
+    </member>
+        <member>
+        <name>Koraidon</name>
+        <type>lottaDrago</type>
+        <dexNum>#1007</dexNum>
+        <baseStats>670</baseStats>
+    </member>
+        <member>
+        <name>Garchomp</name>
+        <type>dragoTerra</type>
+        <dexNum>#445</dexNum>
+        <baseStats>600</baseStats>
+    </member>
+    <member>
+        <name>Torterra</name>
+        <type>erbaTerra</type>
+        <dexNum>#389</dexNum>
+        <baseStats>525</baseStats>
+    </member>
+</myteam>
