@@ -3,7 +3,7 @@
         <xs:element name="myteam">
             <xs:complexType>
                 <xs:sequence>
-                    <xs:element name="member" maxOccurs="6">
+                    <xs:element name="member" minOccurs="1" maxOccurs="6">
                         <xs:complexType>
                             <xs:sequence>
                                 <xs:element name="name" type="xs:string"/>
