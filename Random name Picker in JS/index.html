@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="printName"></div>
+    <script>
+        'use strict';
+        const names = ['Ciro', 'Salvatore', 'Luigi', 'Simone','Fonzo', 'Enrico', 'Carmine', 'Vincenzo','Michele'];
+        function pickName(){
+            const index = Math.floor(names.length * Math.random()); //arrotonda( i * random tra 0 e 1)
+            document.querySelector('#printName').innerHTML = `${names[index]} mio frate`;
+
+        }
+    </script>
+    <input type="button" value="Pick name" onclick="pickName()">
+</body>
+</html>
