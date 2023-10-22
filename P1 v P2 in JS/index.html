@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'user strict'
+        let score1 = 0;
+        let score2 = 0;
+        function randomScore(){
+            return Math.floor(Math.random() * 5+1);
+        }
+        function asyncScorePicker(){
+            score1=randomScore();
+            score2=randomScore();
+            return new Promise((resolve, reject)=>{
+                setTimeout(()=>{
+                    if(score1 > score2){
+                        resolve(`Player 1 wins ${score1} pts`);
+                    } else if(score1<score2){
+                        resolve(`Player 2 wins ${score2} pts`)
+                    }else if(score1 === score2){
+                        reject(`Even`)
+                    }
+                }, 1000);
+            });
+        }
+        asyncScorePicker()
+            .then((result) =>{
+                document.querySelector("#pickwinner").innerHTML = result
+            })
+            .catch((error)=>{
+                document.querySelector("#pickwinner").innerHTML = error
+            })
+    </script>
+    <div id="pickwinner"></div>
+</body>
+</html>
